@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "90s Video Skipper",
+  "version": "1.0.0",
+  "description": "Skip the current webpage's video forward or backward by 90 seconds.",
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "skip-forward-90": {
+      "suggested_key": {
+        "default": "Alt+Shift+Period",
+        "mac": "Option+Shift+Period"
+      },
+      "description": "Skip video forward 90 seconds"
+    },
+    "skip-backward-90": {
+      "suggested_key": {
+        "default": "Alt+Shift+Comma",
+        "mac": "Option+Shift+Comma"
+      },
+      "description": "Skip video backward 90 seconds"
+    }
+  }
+}
