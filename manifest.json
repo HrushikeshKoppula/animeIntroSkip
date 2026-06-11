@@ -1,9 +1,15 @@
 {
   "manifest_version": 3,
   "name": "AnimeIntroSkipper",
-  "version": "1.0.1",
-  "description": "Press Shift + Alt + < or > to skip the Anime Intro.",
-  "permissions": ["scripting"],
+  "version": "1.1.0",
+  "description": "Keyboard shortcut to skip the Anime Intro.",
+  "permissions": ["scripting", "activeTab"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "host_permissions": ["http://*/*", "https://*/*"],
   "background": {
     "service_worker": "background.js"
