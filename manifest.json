@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "90s Video Skipper",
-  "version": "1.0.0",
-  "description": "Skip the current webpage's video forward or backward by 90 seconds.",
+  "name": "AnimeIntroSkipper",
+  "version": "1.0.1",
+  "description": "Press Shift + Alt + < or > to skip the Anime Intro.",
   "permissions": ["scripting"],
   "host_permissions": ["http://*/*", "https://*/*"],
   "background": {
